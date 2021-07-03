@@ -445,5 +445,7 @@ def main(argv):
 
 
 if __name__ == '__main__':
+  if FLAGS.mode == 'train_then_eval':
+    print("TRAIN THEN EVAL")
   tf.disable_v2_behavior()  # Disable eager mode when running with TF2.
   app.run(main)
