@@ -366,7 +366,9 @@ def main(argv):
   # Enable training summary.
   if FLAGS.train_summary_steps > 0:
     tf.config.set_soft_device_placement(True)
-
+   
+  if FLAGS.mode == 'train_then_eval':
+    print("TRAIN THEN EVAL")
 
   builder = tfds.builder(FLAGS.dataset, data_dir=FLAGS.data_dir)
   builder.download_and_prepare()
@@ -445,7 +447,5 @@ def main(argv):
 
 
 if __name__ == '__main__':
-  if FLAGS.mode == 'train_then_eval':
-    print("TRAIN THEN EVAL")
   tf.disable_v2_behavior()  # Disable eager mode when running with TF2.
   app.run(main)
