@@ -61,6 +61,7 @@ class DataGeneratorClass(data_utils.Sequence):
             filename = row[1]["filename"]
             self.info[index * self.batch_size + i] = filename
             img = cv.cvtColor(cv.imread(filename), cv.COLOR_BGR2RGB)
+            img = cv.resize(img, (128, 128))
             if self.VGG:
                 X[i,] = preprocess_input(np.asarray(img))
             else:
