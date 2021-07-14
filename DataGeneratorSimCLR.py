@@ -71,7 +71,7 @@ class DataGeneratorSimCLR(data_utils.Sequence):
             filename = row[1]["filename"]
             self.info[index * self.batch_size + i] = filename
             img = cv.cvtColor(cv.imread(filename), cv.COLOR_BGR2RGB)
-            img = cv.resize(img, (256,256))
+            img = cv.resize(img, (128,128))
 
             img = tf.convert_to_tensor(
                 np.asarray((img / 255)).astype("float32")
