@@ -30,4 +30,4 @@ One can consequently conclude that the feature encoding of the base_model clearl
 
 | <img src=/img/t-SNE_VGG16.png alt="alt text" width="250"/> | <img src=/img/t-SNE_SimCLR.png alt="alt text" width="250"/> |
 | :--------------------------------------------------------: | :---------------------------------------------------------: |
-|      Fig.2.1 - t-SNE of VGG16-features before SimCLR       |       Fig.2.2 - t-SNE of VGG16-features after SimCLR        |
+|     t-SNE of VGG16-features before SimCLR       |      t-SNE of VGG16-features after SimCLR        |
