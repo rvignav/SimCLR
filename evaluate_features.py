@@ -40,6 +40,7 @@ def get_features(base_model, df, class_labels, VGG=True):
                 index
             ]
             img = cv.cvtColor(cv.imread(filename), cv.COLOR_BGR2RGB)
+            img = cv.resize(img, (128,128))
             if VGG:
                 # VGG16 preprocessing
                 img_pr = preprocess_input(img)
