@@ -1,4 +1,4 @@
-To set up the `train` folder, run the following:
+To set up the `train` folder, run the following in the `data` directory:
 
     kaggle competitions download diabetic-retinopathy-detection -f train.zip.001
     kaggle competitions download diabetic-retinopathy-detection -f train.zip.002
