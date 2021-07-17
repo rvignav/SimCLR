@@ -28,6 +28,6 @@ One can consequently conclude that the feature encoding of the base_model clearl
 |            5%            |   Linear   | 0.63 ± 0.00 | 0.80 ± 0.02 |
 |                          | Fine-tuned | 0.80 ± 0.02 | 0.84 ± 0.03 |
 
-| TBD <!-- <img src=/img/t-SNE_VGG16.png alt="alt text" width="250"/>--> | <img src=/img/t-SNE_SimCLR.png alt="alt text" width="250"/> |
+| <img src=/img/t-SNE_VGG16.png alt="alt text" width="250"/> | <img src=/img/t-SNE_SimCLR.png alt="alt text" width="250"/> |
 | :--------------------------------------------------------: | :---------------------------------------------------------: |
 |     t-SNE of VGG16-features before SimCLR       |      t-SNE of VGG16-features after SimCLR        |
