@@ -182,8 +182,7 @@ class Classifier:
                 epochs=epoch,
                 verbose=verbose_epoch,
                 validation_data=data_val,
-                callbacks=[earlyStopping, reduce_lr]
-                # callbacks = [checkpoint, earlyStopping, reduce_lr]
+                callbacks = [checkpoint, earlyStopping, reduce_lr]
             )
             if verbose_cycle:
                 print(
