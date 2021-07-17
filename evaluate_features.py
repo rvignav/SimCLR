@@ -136,8 +136,7 @@ def tSNE_vis(
     df,
     features,
     class_labels,
-    save_tag="",
-    save_figure=False,
+    save_tag="/scratch/users/rvignav/tSNE.png",
     feats_in_plot=150,
 ):
     """Plots the feature quality by the means of t-SNE
@@ -177,7 +176,4 @@ def tSNE_vis(
         ncol=1,
         labels=class_labels,
     )
-    if save_figure:
-        plt.savefig(
-            "figures/" + save_tag + ".svg", bbox_inches="tight",
-        )
+    plt.savefig(save_tag, bbox_inches="tight", dpi=300)
