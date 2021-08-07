@@ -253,7 +253,7 @@ class SimCLR:
         """ Trains and evaluates a nonlinear classifier on top of the base_model
         """
         results = {"acc": 0}
-        for i in range(5):
+        for i in range(1):
             if verbose_cycle:
                 print(f"Learning attempt {i+1}")
 
