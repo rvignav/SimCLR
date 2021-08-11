@@ -16,14 +16,61 @@ The feature quality is evaluated by the means of:
 The table below lists the top-1 accuracy for all cases. It can be seen that SimCLR improves the classification performance for all fractions of the training set. One can consequently conclude that the feature encoding of the base_model clearly improves thanks to the SimCLR framework.
 
 <p align="center">
-
-| Fraction of training set  |    ImageNet (VGG-19)           |   FundusNet (SimCLR w/ VGG-16 backbone)    |
-| :----------------------:  | :---------:                    | :---------: |
-|           100%            | 0.79 ± 0.00                    | 0.82 ± 0.01 |
-|           80%             | 0.70 ± 0.00                    | 0.81 ±0.02  |
-|            60%             | 0.63 ± 0.00                    | 0.80 ± 0.02 |
-|            40%             | 0.63 ± 0.00                    | 0.80 ± 0.02 |
-|            20%             | 0.63 ± 0.00                    | 0.80 ± 0.02 |
+ 
+ <table>
+  <thead>
+    <tr>
+      <th>Fraction of training set</th>
+      <th colspan="2">ImageNet (EfficientNet)</th>
+      <th colspan="2">FundusNet (SimCLR w/ VGG-16 backbone)</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td></td>
+    <td>Stylized</td>
+    <td>Not stylized</td>
+    <td>Stylized</td>
+    <td>Not stylized</td>
+  </tr>
+   <tr>
+    <td>100%</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+   </tr>
+   <tr>
+    <td>80%</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+   </tr>
+   <tr>
+    <td>60%</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+   </tr>
+   <tr>
+    <td>40%</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+   </tr>
+   <tr>
+    <td>20%</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+    <td>0.79 ± 0.00</td>
+   </tr>
+    
+  </tbody>
+</table>
 
 | <img src=/img/t-SNE_VGG16.png alt="alt text" width="250"/> | <img src=/img/t-SNE_SimCLR.png alt="alt text" width="250"/> |
 | :--------------------------------------------------------: | :---------------------------------------------------------: |
