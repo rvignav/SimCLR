@@ -35,38 +35,38 @@ The table below lists the top-1 accuracy for all cases. It can be seen that SimC
   </tr>
    <tr>
     <td>100%</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
+    <td></td>
+    <td>0.7869</td>
+    <td></td>
+    <td></td>
    </tr>
    <tr>
     <td>80%</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
    </tr>
    <tr>
     <td>60%</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
    </tr>
    <tr>
     <td>40%</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
    </tr>
    <tr>
     <td>20%</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
-    <td>0.79 ± 0.00</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
    </tr>
     
   </tbody>
