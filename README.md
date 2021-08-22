@@ -37,35 +37,35 @@ The table below lists the top-1 accuracy for all cases. It can be seen that SimC
     <td>100%</td>
     <td>0.7450</td>
     <td>0.7869</td>
-    <td></td>
+    <td>0.7347</td>
     <td>0.7358</td>
    </tr>
    <tr>
     <td>80%</td>
     <td>0.7427</td>
     <td>0.8075</td>
-    <td></td>
+    <td>0.7352</td>
     <td>0.7360</td>
    </tr>
    <tr>
     <td>60%</td>
     <td>0.7394</td>
     <td>0.7472</td>
-    <td></td>
+    <td>0.7350</td>
     <td>0.7369</td>
    </tr>
    <tr>
     <td>40%</td>
     <td>0.7373</td>
     <td>0.7318</td>
-    <td></td>
+    <td>0.7324</td>
     <td>0.7356</td>
    </tr>
    <tr>
     <td>20%</td>
     <td>0.7346</td>
     <td>0.7328</td>
-    <td></td>
+    <td>0.7358</td>
     <td>0.7360</td>
    </tr>
     
